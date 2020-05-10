@@ -12,6 +12,21 @@ The following versions are supported and tested:
 
 Other versions are assumed to work.
 
+## Demo
+
+[Demo](https://demo.extension.jajuma.de/)
+[Demo Backend](https://demo.extension.jajuma.de/admin)
+
+Admin Login:
+Username: demo
+Password: demo123
+
+[Demo Frontend((https://demo.extension.jajuma.de/customer/account/login/)
+
+Customer Login:
+Email:roni_cost@example.com
+Password:roni_cost3@example.com
+
 ## License
 
 The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/CustomerNavigation/blob/master/LICENSE)
