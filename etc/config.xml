@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!--
+  ~ @author    JaJuMa GmbH <info@jajuma.de>
+  ~ @copyright Copyright (c) 2020 JaJuMa GmbH <https://www.jajuma.de>. All rights reserved.
+  ~ @license   http://opensource.org/licenses/mit-license.php MIT License
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <jajuma_customer_navigation>
+            <general>
+                <enabled>1</enabled>
+            </general>
+            <settings>
+                <show_account>1</show_account>
+                <show_orders>1</show_orders>
+                <show_downloadable_products>0</show_downloadable_products>
+                <show_wishlist>1</show_wishlist>
+                <show_address_book>1</show_address_book>
+                <show_account_edit>1</show_account_edit>
+                <show_cards>1</show_cards>
+                <show_billing_agreements>1</show_billing_agreements>
+                <show_reviews>1</show_reviews>
+                <show_newsletter>1</show_newsletter>
+
+                <position_account>100</position_account>
+                <position_orders>200</position_orders>
+                <position_downloadable_products>300</position_downloadable_products>
+                <position_wishlist>400</position_wishlist>
+                <position_address_book>500</position_address_book>
+                <position_account_edit>600</position_account_edit>
+                <position_cards>700</position_cards>
+                <position_billing_agreements>800</position_billing_agreements>
+                <position_reviews>900</position_reviews>
+                <position_newsletter>1000</position_newsletter>
+            </settings>
+        </jajuma_customer_navigation>
+    </default>
+</config>

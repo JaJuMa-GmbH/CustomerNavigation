@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<!--
+  ~ @author    JaJuMa GmbH <info@jajuma.de>
+  ~ @copyright Copyright (c) 2020 JaJuMa GmbH <https://www.jajuma.de>. All rights reserved.
+  ~ @license   http://opensource.org/licenses/mit-license.php MIT License
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="jajuma" sortOrder="999" class="jajuma-tab" translate="label">
+            <label>Jajuma</label>
+        </tab>
+        <section id="jajuma_customer_navigation" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Frontend Customer Navigation</label>
+            <tab>jajuma</tab>
+            <resource>Jajuma_CustomerNavigation::jajuma_customer_navigation</resource>
+            <group id="general" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Configuration</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/general/enabled</config_path>
+                </field>
+            </group>
+            <group id="settings" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Settings</label>
+
+                <field id="show_account" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>My Account</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_account</config_path>
+                </field>
+                <field id="position_account" translate="label comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>My Account Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_account</config_path>
+                    <depends>
+                        <field id="show_account">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_orders" translate="label comment" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Orders</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_orders</config_path>
+                </field>
+                <field id="position_orders" translate="label comment" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Orders Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_orders</config_path>
+                    <depends>
+                        <field id="show_orders">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_downloadable_products" translate="label comment" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Downloadable Products</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_downloadable_products</config_path>
+                </field>
+                <field id="position_downloadable_products" translate="label comment" type="text" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Downloadable Products Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_downloadable_products</config_path>
+                    <depends>
+                        <field id="show_downloadable_products">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_wishlist" translate="label comment" type="select" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Wishlist</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_wishlist</config_path>
+                </field>
+                <field id="position_wishlist" translate="label comment" type="text" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Wishlist Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_wishlist</config_path>
+                    <depends>
+                        <field id="show_wishlist">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_address_book" translate="label comment" type="select" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Address Book</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_address_book</config_path>
+                </field>
+                <field id="position_address_book" translate="label comment" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Address Book Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_address_book</config_path>
+                    <depends>
+                        <field id="show_address_book">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_account_edit" translate="label comment" type="select" sortOrder="110" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Account Information</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_account_edit</config_path>
+                </field>
+                <field id="position_account_edit" translate="label comment" type="text" sortOrder="120" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Account Information Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_account_edit</config_path>
+                    <depends>
+                        <field id="show_account_edit">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_cards" translate="label comment" type="select" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Stored Payment Methods</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_cards</config_path>
+                </field>
+                <field id="position_cards" translate="label comment" type="text" sortOrder="140" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Stored Payment Methods Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_cards</config_path>
+                    <depends>
+                        <field id="show_cards">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_billing_agreements" translate="label comment" type="select" sortOrder="150" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Billing Agreements</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_billing_agreements</config_path>
+                </field>
+                <field id="position_billing_agreements" translate="label comment" type="text" sortOrder="160" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Billing Agreements Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_billing_agreements</config_path>
+                    <depends>
+                        <field id="show_billing_agreements">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_reviews" translate="label comment" type="select" sortOrder="170" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Reviews</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_reviews</config_path>
+                </field>
+                <field id="position_reviews" translate="label comment" type="text" sortOrder="180" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Reviews Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_reviews</config_path>
+                    <depends>
+                        <field id="show_reviews">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_newsletter" translate="label comment" type="select" sortOrder="190" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Newsletter</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_newsletter</config_path>
+                </field>
+                <field id="position_newsletter" translate="label comment" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Newsletter Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_newsletter</config_path>
+                    <depends>
+                        <field id="show_newsletter">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+            </group>
+        </section>
+    </system>
+</config>

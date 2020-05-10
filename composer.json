@@ -1,0 +1,23 @@
+{
+  "name": "JaJuMa/CustomerNavigation",
+  "description": "This Magento 2 extension adds configurations for the customer account navigation",
+  "type": "magento2-module",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "email": "info@jajuma.de",
+      "name": "JaJuMa"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Jajuma\\CustomerNavigation\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
