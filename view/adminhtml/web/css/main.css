@@ -8,4 +8,17 @@
     vertical-align: middle;
     background-size: contain;
 }
-
+.jajuma-extlogo {
+    background-image: url(../images/module-image.png);
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+}
+.jajuma-minilogo {
+    background-image: url(../images/Jajuma-logo-mini.png);
+    width: 75px;
+    height: 25px;
+    background-size: cover;
+    margin-left: 10px;
+    float: right;
+}

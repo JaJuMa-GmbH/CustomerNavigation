@@ -16,6 +16,57 @@
             <label>Frontend Customer Navigation</label>
             <tab>jajuma</tab>
             <resource>Jajuma_CustomerNavigation::jajuma_customer_navigation</resource>
+            <group id="extension_info" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Extension Information</label>
+                <attribute type="expanded">1</attribute>
+                <field id="extension_info_text" translate="label comment" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" type="text">
+                <frontend_model>Jajuma\CustomerNavigation\Block\System\Config\Form\Jajuma\Module</frontend_model>
+                    <comment><![CDATA[
+		      <div style="margin:auto;padding:10px;background-color:#f1f1f1;display:inline-block;width:97%;">
+                        <div class="box-img" style="width: 20%;float: left;">
+                            <a href="https://www.jajuma.de/en" title="Magento 2 Customer Navigation Manager Extension" target="_blank">
+			    <div class="jajuma-extlogo"></div>
+                            </a>
+                            <strong style="font-size: 10px;">Copyright ©
+                                <script>var today = new Date();
+                                document.write(today.getFullYear());</script>
+                                <a href="https://www.jajuma.de/en" target="_blank">www.jajuma.de</a>
+                            </strong>
+                        </div>
+                        <div style="width: 77%;float: left;padding-left: 3%;">
+                            <div class="name" style="font-size: 16px;">
+                                <b>Magento 2 Customer Navigation Manager</b> by <a href="https://www.jajuma.de/en" target="_blank"><b>JaJuMa</b></a>
+				 <div class="jajuma-minilogo"></div>
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="more"><b>More Information About This Extension:</b>
+                                <br>
+                                <p><a href="https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2" 
+				       target="_blank">Website</a> | 
+				    <a href="https://github.com/JaJuMa/CustomerNavigation" 
+				       target="_blank">Github</a>
+				</p>
+                            </div>
+                            <hr>
+                            <br>
+                            <div class="info"><b>Discover More Ideas To Improve Your Store:</b>
+                                <br>
+                                <p>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/webp-optimized-images-extension-for-magento-2"
+                                       target="_blank">WebP Optimized Images</a> |
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/shariff-social-share-buttons-extension-for-magento-2"
+                                       target="_blank">Shariff Social Share Buttons</a> |
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/prg-pattern-link-masking-for-magento-2"
+                                       target="_blank">PRG Pattern Link Masking</a>
+                                </p>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    ]]></comment>
+                </field>
+	    </group>
             <group id="general" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Configuration</label>
                 <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
