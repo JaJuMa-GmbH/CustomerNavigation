@@ -6,7 +6,9 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Jajuma_CustomerNavigation::jajuma_customer_navigation" title="JaJuMa - Customer Navigation" sortOrder="50"/>
+                            <resource id="Jajuma_General::jajuma_extensions" title="Jajuma Extensions">
+                                <resource id="Jajuma_CustomerNavigation::jajuma_customer_navigation" title="JaJuMa - Customer Navigation"/>
+                            </resource>
                         </resource>
                     </resource>
                 </resource>
