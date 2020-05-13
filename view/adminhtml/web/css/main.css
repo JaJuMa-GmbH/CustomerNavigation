@@ -8,7 +8,7 @@
     vertical-align: middle;
     background-size: contain;
 }
-.jajuma-extlogo {
+#jajuma_customer_navigation_extension_info .jajuma-extlogo {
     background-image: url(../images/module-image.png);
     width: 185px;
     height: 185px;
