@@ -24,6 +24,8 @@
                 <show_billing_agreements>1</show_billing_agreements>
                 <show_reviews>1</show_reviews>
                 <show_newsletter>1</show_newsletter>
+                <show_divider_1>1</show_divider_1>
+                <show_divider_2>1</show_divider_2>
 
                 <position_account>100</position_account>
                 <position_orders>200</position_orders>
@@ -35,6 +37,8 @@
                 <position_billing_agreements>800</position_billing_agreements>
                 <position_reviews>900</position_reviews>
                 <position_newsletter>1000</position_newsletter>
+                <position_divider_1>450</position_divider_1>
+                <position_divider_2>850</position_divider_2>
             </settings>
         </jajuma_customer_navigation>
     </default>

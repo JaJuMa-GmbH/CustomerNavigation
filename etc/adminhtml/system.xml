@@ -13,7 +13,7 @@
         </tab>
         <section id="jajuma_customer_navigation" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
-            <label>Frontend Customer Navigation</label>
+            <label>Customer Navigation Manager</label>
             <tab>jajuma</tab>
             <resource>Jajuma_CustomerNavigation::jajuma_customer_navigation</resource>
             <group id="extension_info" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -44,6 +44,8 @@
                                 <br>
                                 <p><a href="https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2" 
 				       target="_blank">Website</a> | 
+				   <a href="https://demo.extension.jajuma.de/" 
+				       target="_blank">Demo</a> | 
 				    <a href="https://github.com/JaJuMa/CustomerNavigation" 
 				       target="_blank">Github</a>
 				</p>
@@ -79,7 +81,7 @@
                 <label>Settings</label>
 
                 <field id="show_account" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>My Account</label>
+                    <label>Show My Account</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_account</config_path>
                 </field>
@@ -94,12 +96,12 @@
                 </field>
 
                 <field id="show_orders" translate="label comment" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Orders</label>
+                    <label>Show My Orders</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_orders</config_path>
                 </field>
                 <field id="position_orders" translate="label comment" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Orders Position</label>
+                    <label>My Orders Position</label>
                     <config_path>jajuma_customer_navigation/settings/position_orders</config_path>
                     <depends>
                         <field id="show_orders">1</field>
@@ -109,12 +111,12 @@
                 </field>
 
                 <field id="show_downloadable_products" translate="label comment" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Downloadable Products</label>
+                    <label>Show My Downloadable Products</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_downloadable_products</config_path>
                 </field>
                 <field id="position_downloadable_products" translate="label comment" type="text" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Downloadable Products Position</label>
+                    <label>My Downloadable Products Position</label>
                     <config_path>jajuma_customer_navigation/settings/position_downloadable_products</config_path>
                     <depends>
                         <field id="show_downloadable_products">1</field>
@@ -124,12 +126,12 @@
                 </field>
 
                 <field id="show_wishlist" translate="label comment" type="select" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Wishlist</label>
+                    <label>Show My Wishlist</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_wishlist</config_path>
                 </field>
                 <field id="position_wishlist" translate="label comment" type="text" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Wishlist Position</label>
+                    <label>My Wishlist Position</label>
                     <config_path>jajuma_customer_navigation/settings/position_wishlist</config_path>
                     <depends>
                         <field id="show_wishlist">1</field>
@@ -139,7 +141,7 @@
                 </field>
 
                 <field id="show_address_book" translate="label comment" type="select" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Address Book</label>
+                    <label>Show Address Book</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_address_book</config_path>
                 </field>
@@ -154,7 +156,7 @@
                 </field>
 
                 <field id="show_account_edit" translate="label comment" type="select" sortOrder="110" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Account Information</label>
+                    <label>Show Account Information</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_account_edit</config_path>
                 </field>
@@ -169,7 +171,7 @@
                 </field>
 
                 <field id="show_cards" translate="label comment" type="select" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Stored Payment Methods</label>
+                    <label>Show Stored Payment Methods</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_cards</config_path>
                 </field>
@@ -184,7 +186,7 @@
                 </field>
 
                 <field id="show_billing_agreements" translate="label comment" type="select" sortOrder="150" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Billing Agreements</label>
+                    <label>Show Billing Agreements</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_billing_agreements</config_path>
                 </field>
@@ -199,12 +201,12 @@
                 </field>
 
                 <field id="show_reviews" translate="label comment" type="select" sortOrder="170" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Reviews</label>
+                    <label>Show My Product Reviews</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_reviews</config_path>
                 </field>
                 <field id="position_reviews" translate="label comment" type="text" sortOrder="180" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Reviews Position</label>
+                    <label>Product Reviews Position</label>
                     <config_path>jajuma_customer_navigation/settings/position_reviews</config_path>
                     <depends>
                         <field id="show_reviews">1</field>
@@ -214,15 +216,47 @@
                 </field>
 
                 <field id="show_newsletter" translate="label comment" type="select" sortOrder="190" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Newsletter</label>
+                    <label>Show Newsletter Subscriptions</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_newsletter</config_path>
                 </field>
                 <field id="position_newsletter" translate="label comment" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Newsletter Position</label>
+                    <label>Newsletter Subscriptions Position</label>
                     <config_path>jajuma_customer_navigation/settings/position_newsletter</config_path>
                     <depends>
                         <field id="show_newsletter">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+
+                <field id="show_divider_1" translate="label comment" type="select" sortOrder="210" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Divider 1</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_divider_1</config_path>
+                </field>
+                <field id="position_divider_1" translate="label comment" type="text" sortOrder="220" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Divider 1 Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_divider_1</config_path>
+                    <depends>
+                        <field id="show_divider_1">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+
+                <field id="show_divider_2" translate="label comment" type="select" sortOrder="230" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Divider 2</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_divider_2</config_path>
+                </field>
+                <field id="position_divider_2" translate="label comment" type="text" sortOrder="240" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Divider 2 Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_divider_2</config_path>
+                    <depends>
+                        <field id="show_divider_2">1</field>
                     </depends>
                     <comment>Make sure this value is unique.</comment>
                     <validate>validate-digits</validate>

@@ -39,6 +39,7 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
      */
     public function afterGetLinks(\Magento\Customer\Block\Account\Navigation $subject, $result)
     {
+
         if ($this->helper->isEnabled()) {
             $customResult = $resultNew = [];
             /* @var \Magento\Customer\Block\Account\Link $link */
@@ -49,7 +50,6 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
             }
 
             ksort($customResult);
-
             return $customResult;
         }
         return $result;
@@ -62,6 +62,7 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
     public function isShow(&$link)
     {
         $show = true;
+	    $sortorder = $link->getsortOrder();
         switch ($link->getPath()) {
             case 'customer/account':
                 $link->setData('sortOrder', $this->helper->getConfig('position_account'));
@@ -103,9 +104,18 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
                 $link->setData('sortOrder', $this->helper->getConfig('position_newsletter'));
                 $show = $this->helper->getConfig('show_newsletter');
                 break;
-
+	        case '':
+		        if($sortorder == '130') :  {
+ 			       $link->setData('sortOrder', $this->helper->getConfig('position_divider_1'));
+ 			       $show = $this->helper->getConfig('show_divider_1');
+		        }
+		        elseif ($sortorder == '200') :  {
+ 			       $link->setData('sortOrder', $this->helper->getConfig('position_divider_2'));
+ 			       $show = $this->helper->getConfig('show_divider_2');
+      		    }
+	    	    endif;
+	       break;
         }
         return $show;
     }
-
 }
