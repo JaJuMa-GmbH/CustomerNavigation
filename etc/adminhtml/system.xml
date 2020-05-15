@@ -262,6 +262,12 @@
                     <validate>validate-digits</validate>
                 </field>
 
+                <field id="show_3rd_party_links" translate="label comment" type="select" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show 3rd Party Links</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/3rd_party_links</config_path>
+                </field>
+
             </group>
         </section>
     </system>

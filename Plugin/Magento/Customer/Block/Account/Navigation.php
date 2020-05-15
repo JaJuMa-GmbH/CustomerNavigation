@@ -61,8 +61,16 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
      */
     public function isShow(&$link)
     {
-	    $show = true;
-	    $sortorder = $link->getsortOrder();
+
+        if ($this->helper->getConfig('3rd_party_links') == 0) : {
+            $show = false;
+        }
+        else : {
+            $show = true;
+        }
+        endif;
+
+        $sortorder = $link->getsortOrder();
         switch ($link->getPath()) {
             case 'customer/account':
                 $link->setData('sortOrder', $this->helper->getConfig('position_account'));
@@ -120,7 +128,7 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
                 $show = $this->helper->getConfig('show_divider_2');
                 }
                 endif;
-	       break;
+	            break;
         }
         return $show;
     }
