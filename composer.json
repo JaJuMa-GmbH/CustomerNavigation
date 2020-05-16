@@ -1,5 +1,5 @@
 {
-  "name": "jajuma/CustomerNavigation",
+  "name": "jajuma/customernavigation",
   "description": "This Magento 2 extension adds configurations for the customer account navigation",
   "type": "magento2-module",
   "license": "MIT",
