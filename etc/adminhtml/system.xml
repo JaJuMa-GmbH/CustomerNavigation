@@ -36,19 +36,19 @@
                         <div style="width: 77%;float: left;padding-left: 3%;">
                             <div class="name" style="font-size: 16px;">
                                 <b>Magento 2 Customer Navigation Manager</b> by <a href="https://www.jajuma.de/en" target="_blank"><b>JaJuMa</b></a>
-				 <div class="jajuma-minilogo"></div>
+				        <div class="jajuma-minilogo"></div>
                             </div>
                             <hr>
                             <br>
                             <div class="more"><b>More Information About This Extension:</b>
                                 <br>
                                 <p><a href="https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2" 
-				       target="_blank">Website</a> | 
-				   <a href="https://demo.extension.jajuma.de/" 
-				       target="_blank">Demo</a> | 
-				    <a href="https://github.com/JaJuMa/CustomerNavigation" 
-				       target="_blank">Github</a>
-				</p>
+				                    target="_blank">Website</a> |
+				                   <a href="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/customer-navigation-manager-magento/JaJuMa_Customer_Navigation_Manager_Manual_v001.pdf"
+				                    target="_blank">Manual</a> |
+				                   <a href="https://demo.extension.jajuma.de/"
+				                    target="_blank">Demo</a>
+				                </p>
                             </div>
                             <hr>
                             <br>
