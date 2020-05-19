@@ -20,7 +20,7 @@ Other versions are assumed to work.
 ## Further Info, Extension Description & Manual
 
 * [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2)
-* [Extension Website DE](https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-fuer-magento-2)
+* [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/extensions/customer-navigation-manager-extension-fuer-magento-2)
 
 ## Demo
 
