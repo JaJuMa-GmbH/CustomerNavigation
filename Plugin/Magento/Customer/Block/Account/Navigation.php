@@ -62,7 +62,7 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
     public function isShow(&$link)
     {
 
-        if ($this->helper->getConfig('3rd_party_links') == 0) : {
+        if ($this->helper->getConfig('show_3rd_party_links') == 0) : {
             $show = false;
         }
         else : {
@@ -70,7 +70,7 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
         }
         endif;
 
-        $sortorder = $link->getsortOrder();
+	    $sortorder = $link->getsortOrder();
         switch ($link->getPath()) {
             case 'customer/account':
                 $link->setData('sortOrder', $this->helper->getConfig('position_account'));
@@ -112,23 +112,23 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
                 $link->setData('sortOrder', $this->helper->getConfig('position_newsletter'));
                 $show = $this->helper->getConfig('show_newsletter');
                 break;
-            case '':
-                if ($sortorder == '130') :  {
-                $link->setData('sortOrder', $this->helper->getConfig('position_divider_1'));
-                $show = 0;
-                }
-                elseif ($sortorder == '200') :  {
-                $link->setData('sortOrder', $this->helper->getConfig('position_divider_2'));
-                $show = 0;
-                    }
-                elseif ($sortorder == $this->helper->getConfig('position_divider_1')) :  {
-                $show = $this->helper->getConfig('show_divider_1');
-                }
-                elseif ($sortorder == $this->helper->getConfig('position_divider_2')) :  {
-                $show = $this->helper->getConfig('show_divider_2');
-                }
-                endif;
-	            break;
+	    case '':
+		    if ($sortorder == '130') :  {
+ 			$link->setData('sortOrder', $this->helper->getConfig('position_divider_1'));  
+			$show = 0;
+		    }
+		    elseif ($sortorder == '200') :  {  
+ 			$link->setData('sortOrder', $this->helper->getConfig('position_divider_2'));  
+			$show = 0;
+      		    } 
+		    elseif ($sortorder == $this->helper->getConfig('position_divider_1')) :  {
+			$show = $this->helper->getConfig('show_divider_1');
+		    }
+		    elseif ($sortorder == $this->helper->getConfig('position_divider_2')) :  {
+			$show = $this->helper->getConfig('show_divider_2');
+		    }
+		    endif;
+	       break;
         }
         return $show;
     }
