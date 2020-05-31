@@ -68,7 +68,7 @@
                     </div>
                     ]]></comment>
                 </field>
-	    </group>
+	        </group>
             <group id="general" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Configuration</label>
                 <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -262,8 +262,101 @@
                     <validate>validate-digits</validate>
                 </field>
 
-                <field id="show_3rd_party_links" translate="label comment" type="select" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Show 3rd Party Links</label>
+                <field id="show_custom_1" translate="label comment" type="select" sortOrder="250" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Custom Link 1</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_custom_1</config_path>
+                </field>
+                <field id="link_custom_1" translate="label comment" type="text" sortOrder="260" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Link 1 Path</label>
+                    <config_path>jajuma_customer_navigation/settings/link_custom_1</config_path>
+                    <depends>
+                        <field id="show_custom_1">1</field>
+                    </depends>
+                    <comment>Input the path for your custom link. E. g.: For https://yourdomain.de/sales/order/history -> Input: sales/order/history</comment>
+                </field>
+
+                <field id="position_custom_1" translate="label comment" type="text" sortOrder="260" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Link 1 Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_custom_1</config_path>
+                    <depends>
+                        <field id="show_custom_1">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_custom_2" translate="label comment" type="select" sortOrder="270" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Custom Link 2</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_custom_2</config_path>
+                </field>
+                <field id="link_custom_2" translate="label comment" type="text" sortOrder="280" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Link 2 Path</label>
+                    <config_path>jajuma_customer_navigation/settings/link_custom_2</config_path>
+                    <depends>
+                        <field id="show_custom_2">1</field>
+                    </depends>
+                    <comment>Input the path for your custom link. E. g.: For https://yourdomain.de/sales/order/history -> Input: sales/order/history</comment>
+                </field>
+                <field id="position_custom_2" translate="label comment" type="text" sortOrder="290" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Link 2 Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_custom_2</config_path>
+                    <depends>
+                        <field id="show_custom_2">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_custom_3" translate="label comment" type="select" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Custom Link 3</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_custom_3</config_path>
+                </field>
+                <field id="link_custom_3" translate="label comment" type="text" sortOrder="310" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Link 3 Path</label>
+                    <config_path>jajuma_customer_navigation/settings/link_custom_3</config_path>
+                    <depends>
+                        <field id="show_custom_3">1</field>
+                    </depends>
+                    <comment>Input the path for your custom link. E. g.: For https://yourdomain.de/sales/order/history -> Input: sales/order/history</comment>
+                </field>
+                <field id="position_custom_3" translate="label comment" type="text" sortOrder="320" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Link 3 Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_custom_3</config_path>
+                    <depends>
+                        <field id="show_custom_3">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_custom_4" translate="label comment" type="select" sortOrder="330" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Custom Link 4</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <config_path>jajuma_customer_navigation/settings/show_custom_4</config_path>
+                </field>
+                <field id="link_custom_4" translate="label comment" type="text" sortOrder="340" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Link 4 Path</label>
+                    <config_path>jajuma_customer_navigation/settings/link_custom_4</config_path>
+                    <depends>
+                        <field id="show_custom_4">1</field>
+                    </depends>
+                    <comment>Input the path for your custom link. E. g.: For https://yourdomain.de/sales/order/history -> Input: sales/order/history</comment>
+                </field>
+                <field id="position_custom_4" translate="label comment" type="text" sortOrder="350" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Link 4 Position</label>
+                    <config_path>jajuma_customer_navigation/settings/position_custom_4</config_path>
+                    <depends>
+                        <field id="show_custom_4">1</field>
+                    </depends>
+                    <comment>Make sure this value is unique.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+
+                <field id="show_3rd_party_links" translate="label comment" type="select" sortOrder="360" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Other Custom/3rd Party Links</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <config_path>jajuma_customer_navigation/settings/show_3rd_party_links</config_path>
                 </field>

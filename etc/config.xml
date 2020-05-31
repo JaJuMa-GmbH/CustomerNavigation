@@ -40,6 +40,21 @@
                 <position_divider_1>450</position_divider_1>
                 <position_divider_2>850</position_divider_2>
 
+                <show_custom_1>0</show_custom_1>
+                <show_custom_2>0</show_custom_2>
+                <show_custom_3>0</show_custom_3>
+                <show_custom_4>0</show_custom_4>
+
+                <link_custom_1></link_custom_1>
+                <link_custom_2></link_custom_2>
+                <link_custom_3></link_custom_3>
+                <link_custom_4></link_custom_4>
+
+                <position_custom_1>1100</position_custom_1>
+                <position_custom_2>1200</position_custom_2>
+                <position_custom_3>1300</position_custom_3>
+                <position_custom_4>1400</position_custom_4>
+
                 <show_3rd_party_links>1</show_3rd_party_links>
             </settings>
         </jajuma_customer_navigation>

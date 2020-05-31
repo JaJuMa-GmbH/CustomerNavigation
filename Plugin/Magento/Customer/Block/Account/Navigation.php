@@ -112,23 +112,39 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
                 $link->setData('sortOrder', $this->helper->getConfig('position_newsletter'));
                 $show = $this->helper->getConfig('show_newsletter');
                 break;
-	    case '':
-		    if ($sortorder == '130') :  {
- 			$link->setData('sortOrder', $this->helper->getConfig('position_divider_1'));  
-			$show = 0;
-		    }
-		    elseif ($sortorder == '200') :  {  
- 			$link->setData('sortOrder', $this->helper->getConfig('position_divider_2'));  
-			$show = 0;
-      		    } 
-		    elseif ($sortorder == $this->helper->getConfig('position_divider_1')) :  {
-			$show = $this->helper->getConfig('show_divider_1');
-		    }
-		    elseif ($sortorder == $this->helper->getConfig('position_divider_2')) :  {
-			$show = $this->helper->getConfig('show_divider_2');
-		    }
-		    endif;
-	       break;
+            case '':
+                if ($sortorder == '130') :  {
+                $link->setData('sortOrder', $this->helper->getConfig('position_divider_1'));
+                $show = 0;
+                }
+                elseif ($sortorder == '200') :  {
+                $link->setData('sortOrder', $this->helper->getConfig('position_divider_2'));
+                $show = 0;
+                    }
+                elseif ($sortorder == $this->helper->getConfig('position_divider_1')) :  {
+                $show = $this->helper->getConfig('show_divider_1');
+                }
+                elseif ($sortorder == $this->helper->getConfig('position_divider_2')) :  {
+                $show = $this->helper->getConfig('show_divider_2');
+                }
+                endif;
+               break;
+            case $this->helper->getConfig('link_custom_1'):
+                $link->setData('sortOrder', $this->helper->getConfig('position_custom_1'));
+                $show = $this->helper->getConfig('show_custom_1');
+                break;
+            case $this->helper->getConfig('link_custom_2'):
+                $link->setData('sortOrder', $this->helper->getConfig('position_custom_2'));
+                $show = $this->helper->getConfig('show_custom_2');
+                break;
+            case $this->helper->getConfig('link_custom_3'):
+                $link->setData('sortOrder', $this->helper->getConfig('position_custom_3'));
+                $show = $this->helper->getConfig('show_custom_3');
+                break;
+            case $this->helper->getConfig('link_custom_4'):
+                $link->setData('sortOrder', $this->helper->getConfig('position_custom_4'));
+                $show = $this->helper->getConfig('show_custom_4');
+                break;
         }
         return $show;
     }

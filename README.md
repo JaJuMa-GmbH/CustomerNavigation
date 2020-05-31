@@ -6,7 +6,8 @@ Currently supported:
 * Change Sort Order for Default Customer Navigation Tabs
 * Enable / Disable dividers in Customer Account Sidebar
 * Change Sort Order for dividers in Customer Account Navigation
-* Enable / Disable 3rd Party extension links added to Customer Account Menu
+* Enable / Disable custom links added to Customer Account Menu by 3rd Party extensions 
+* Change Sort Order for custom links added to Customer Account Menu by 3rd Party extensions
 
 ![Customer Account Navigation Manager for Magento 2](https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/customer-navigation-manager-magento/magento-2-customer-navigation-remove-links-large.gif)
 
