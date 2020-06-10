@@ -273,9 +273,14 @@
                     <depends>
                         <field id="show_custom_1">1</field>
                     </depends>
-                    <comment>Input the path for your custom link. E. g.: For https://yourdomain.de/sales/order/history -> Input: sales/order/history</comment>
+                    <comment><![CDATA[
+                            Input the path for your custom link. E. g.:<br />For https://yourdomain.de/sales/order/history<br />-> Input: sales/order/history<br />
+			   <span style="color:red"><b>Please Note:</b><br>
+			    This config is for sorting links added by 3rd party extensions.<br>
+			    It is not for adding new links to your customer account</span>
+                        ]]>
+                    </comment>
                 </field>
-
                 <field id="position_custom_1" translate="label comment" type="text" sortOrder="260" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Custom Link 1 Position</label>
                     <config_path>jajuma_customer_navigation/settings/position_custom_1</config_path>
@@ -297,7 +302,13 @@
                     <depends>
                         <field id="show_custom_2">1</field>
                     </depends>
-                    <comment>Input the path for your custom link. E. g.: For https://yourdomain.de/sales/order/history -> Input: sales/order/history</comment>
+                    <comment><![CDATA[
+                            Input the path for your custom link. E. g.:<br />For https://yourdomain.de/sales/order/history<br />-> Input: sales/order/history<br />
+			   <span style="color:red"><b>Please Note:</b><br>
+			    This config is for sorting links added by 3rd party extensions.<br>
+			    It is not for adding new links to your customer account</span>
+                        ]]>
+                    </comment>
                 </field>
                 <field id="position_custom_2" translate="label comment" type="text" sortOrder="290" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Custom Link 2 Position</label>
@@ -320,7 +331,13 @@
                     <depends>
                         <field id="show_custom_3">1</field>
                     </depends>
-                    <comment>Input the path for your custom link. E. g.: For https://yourdomain.de/sales/order/history -> Input: sales/order/history</comment>
+                    <comment><![CDATA[
+                            Input the path for your custom link. E. g.:<br />For https://yourdomain.de/sales/order/history<br />-> Input: sales/order/history<br />
+			   <span style="color:red"><b>Please Note:</b><br>
+			    This config is for sorting links added by 3rd party extensions.<br>
+			    It is not for adding new links to your customer account</span>
+                        ]]>
+                    </comment>
                 </field>
                 <field id="position_custom_3" translate="label comment" type="text" sortOrder="320" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Custom Link 3 Position</label>
@@ -343,7 +360,13 @@
                     <depends>
                         <field id="show_custom_4">1</field>
                     </depends>
-                    <comment>Input the path for your custom link. E. g.: For https://yourdomain.de/sales/order/history -> Input: sales/order/history</comment>
+                    <comment><![CDATA[
+                            Input the path for your custom link. E. g.:<br />For https://yourdomain.de/sales/order/history<br />-> Input: sales/order/history<br />
+			   <span style="color:red"><b>Please Note:</b><br>
+			    This config is for sorting links added by 3rd party extensions.<br>
+			    It is not for adding new links to your customer account</span>
+                        ]]>
+                    </comment>
                 </field>
                 <field id="position_custom_4" translate="label comment" type="text" sortOrder="350" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Custom Link 4 Position</label>
