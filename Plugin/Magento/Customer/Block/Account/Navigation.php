@@ -40,7 +40,7 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
     public function afterGetLinks(\Magento\Customer\Block\Account\Navigation $subject, $result)
     {
 
-        if ($this->helper->isEnabled()) {
+        if ($this->helper->isEnabled() && $subject->getNameInLayout() == 'customer_account_navigation') {
             $customResult = $resultNew = [];
             /* @var \Magento\Customer\Block\Account\Link $link */
             foreach ($result as $key => $link) {
