@@ -48,5 +48,6 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Cus
 * [Magento 2 WebP Optimized Images](https://www.jajuma.de/en/jajuma-develop/extensions/webp-optimized-images-extension-for-magento-2)
 * [Magento 2 Shariff Social Share Buttons](https://www.jajuma.de/en/jajuma-develop/extensions/shariff-social-share-buttons-extension-for-magento-2)
 * [Magento 2 PRG Pattern Link Masking](https://www.jajuma.de/en/jajuma-develop/extensions/prg-pattern-link-masking-for-magento-2)
+* [Magento 2 Video Widget](https://www.jajuma.de/en/jajuma-develop/extensions/video-widget-gdpr-extension-for-magento-2)
 
 © JaJuMa GmbH | [www.jajuma.de](www.jajuma.de)
