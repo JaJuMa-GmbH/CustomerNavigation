@@ -9,6 +9,7 @@ namespace Jajuma\CustomerNavigation\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
+use Magento\Store\Model\ScopeInterface;
 
 /**
  * Class Data
@@ -40,7 +41,7 @@ class Data extends AbstractHelper
      */
     public function getConfig($field)
     {
-        $settings = $this->scopeConfig->getValue('jajuma_customer_navigation/settings');
+        $settings = $this->scopeConfig->getValue('jajuma_customer_navigation/settings',ScopeInterface::SCOPE_STORE);
         return $settings[$field];
     }
 
