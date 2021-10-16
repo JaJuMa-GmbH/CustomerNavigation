@@ -43,7 +43,7 @@ Email: roni_cost@example.com / Password: roni_cost3@example.com
 
 The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/CustomerNavigation/blob/master/LICENSE)
 
-## Other [Magento 2 Extensions](ttps://www.jajuma.de/jajuma-develop) by [JaJuMa](https://www.jajuma.de/)
+## Other [Magento 2 Extensions](ttps://www.jajuma.de/en/jajuma-develop/magento-extensions) by [JaJuMa](https://www.jajuma.de/)
 
   * :framed_picture: Performance & UX:<br>[Ultimate Image Optimizer for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/ultimate-image-optimizer-extension-for-magento-2)<br>
    AVIF & WebP Images, Lazy Loading, High-Resolution / Retina images
@@ -79,11 +79,17 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Cus
    
   * :shopping_cart: [JaJuMa-Shop](https://www.jajuma.de/en/jajuma-shop)<br>
    Customized Magento Shop Solutions.   
+
+  * :rocket: [JaJuMa-Shop: Hyvä Magento Shop Development](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes)<br>
+   Hyvä Magento Shop Development.
+   
+  * :orange_book: [JaJuMa-Shop: Magento Handbuch in Deutsch](https://www.jajuma.de/de/jajuma-shop/magento-2-handbuch/)<br>
+   Magento Handbuch in Deutsch.    
    
   * :card_index_dividers: [JaJuMa-PIM](https://www.jajuma.de/en/jajuma-pim)<br>
    Product Information Management. Simple. Better.
 
-  * :heavy_plus_sign: [JaJuMa-Develop: Magento 2 Extensions](https://www.jajuma.de/en/jajuma-develop)<br>
+  * :heavy_plus_sign: [JaJuMa-Develop: Magento 2 Extensions](https://www.jajuma.de/en/jajuma-develop/magento-extensions)<br>
    Individual Solutions For Your Business Case.    
    
   * :paintbrush: [JaJuMa-Design](https://www.jajuma.de/en/jajuma-design)<br>
