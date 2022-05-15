@@ -12,7 +12,7 @@
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
                             <resource id="Jajuma_General::jajuma_extensions" title="JaJuMa Extensions">
-                                <resource id="Jajuma_CustomerNavigation::jajuma_customer_navigation" title="JaJuMa - Customer Navigation Manager"/>
+                                <resource id="Jajuma_CustomerNavigation::jajuma_customer_navigation" title="JaJuMa - Customer Navigation Manager" sortOrder="800"/>
                             </resource>
                         </resource>
                     </resource>
