@@ -21,7 +21,7 @@
 			 resource="Jajuma_CustomerNavigation::jajuma_customer_navigation"
 			 parent="Jajuma::top_level_extensions"/>
 		<add id="Jajuma_CustomerNavigation::jajuma_customernavigation_config"
-			 title="Info + Manual"
+			 title="Configuration"
 			 module="Jajuma_CustomerNavigation"
 			 sortOrder="810"
 			 parent="Jajuma_CustomerNavigation::jajuma_customernavigation"

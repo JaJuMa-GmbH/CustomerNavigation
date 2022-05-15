@@ -38,10 +38,10 @@ li.item-extensions.parent.level-1 {
     filter: brightness(1.3);
 }
 li.item-jajuma-customernavigation.parent.level-1 {
-    min-width: 280px;
+    min-width: 315px;
 }
 .config-nav-block.jajuma-tab strong:before, .admin__menu [data-ui-id^=menu-jajuma-].item-jajuma-customernavigation.parent.level-1 .submenu-group-title span:before {
-    background-image: url(../images/percent.svg);
+    background-image: url(../images/bars.svg);
     display: inline-block;
     content: '';
     width: 30px;
