@@ -113,14 +113,27 @@ class Navigation extends \Magento\Customer\Block\Account\Navigation
                 $show = $this->helper->getConfig('show_newsletter');
                 break;
             case '':
-                if ($sortorder == '130') :  {
+                if ($sortorder == '0') :  {
+                $link->setData('sortOrder', $this->helper->getConfig('position_hyva_logout'));
+                }
+                elseif ($sortorder == '10') :  {
+                $link->setData('sortOrder', $this->helper->getConfig('position_hyva_divider_1'));
+                $show = 0;
+                }
+                elseif ($sortorder == '130') :  {
                 $link->setData('sortOrder', $this->helper->getConfig('position_divider_1'));
                 $show = 0;
                 }
                 elseif ($sortorder == '200') :  {
                 $link->setData('sortOrder', $this->helper->getConfig('position_divider_2'));
                 $show = 0;
-                    }
+                }
+                elseif ($sortorder == $this->helper->getConfig('position_hyva_logout')) :  {
+                $show = $this->helper->getConfig('show_hyva_logout');
+                }
+                elseif ($sortorder == $this->helper->getConfig('position_hyva_divider_1')) :  {
+                $show = $this->helper->getConfig('show_hyva_divider_1');
+                }
                 elseif ($sortorder == $this->helper->getConfig('position_divider_1')) :  {
                 $show = $this->helper->getConfig('show_divider_1');
                 }

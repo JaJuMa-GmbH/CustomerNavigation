@@ -24,6 +24,8 @@
                 <show_billing_agreements>1</show_billing_agreements>
                 <show_reviews>1</show_reviews>
                 <show_newsletter>1</show_newsletter>
+                <show_hyva_logout>1</show_hyva_logout>
+                <show_hyva_divider_1>1</show_hyva_divider_1>
                 <show_divider_1>1</show_divider_1>
                 <show_divider_2>1</show_divider_2>
 
@@ -37,6 +39,8 @@
                 <position_billing_agreements>800</position_billing_agreements>
                 <position_reviews>900</position_reviews>
                 <position_newsletter>1000</position_newsletter>
+                <position_hyva_logout>0</position_hyva_logout>
+                <position_hyva_divider_1>10</position_hyva_divider_1>
                 <position_divider_1>450</position_divider_1>
                 <position_divider_2>850</position_divider_2>
 
