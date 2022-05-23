@@ -59,7 +59,7 @@
                             <br>
                             <div class="more"><b>More Information About This Extension:</b>
                                 <br>
-                                <p><a href="https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2" 
+                                <div><a href="https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2"
 				                    target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
 				                viewBox="0 0 576 512" class="w-10 h-10" width="15" height="15"
 				                style="position: relative;top: 2px;">
@@ -75,7 +75,7 @@
 				                287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0
 				                288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8
 				                255.5L575.8 255.5z"></path></svg> Website</a> |
-				                   <a href="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/customer-navigation-manager-magento/JaJuMa_Customer_Navigation_Manager_Manual_v001.pdf"
+				                   <a href="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/customer-navigation-manager-magento/JaJuMa_Customer_Navigation_Manager_Manual_v003.pdf"
 				                    target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
 				                viewBox="0 0 448 512" class="w-10 h-10" width="15" height="15"
 				                style="top: 2px;position: relative;">
@@ -100,8 +100,20 @@
 				                166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95
 				                15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128
 				                128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z">
-				                </path></svg> Demo</a>
-				                </p>
+				                </path></svg> Luma Demo</a>
+				                <a href="https://hyva.extension.jajuma.de/"
+				                target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+				                viewBox="0 0 400 400" class="w-10 h-10" width="20" height="20" style="position:
+				                relative;top: 5px;">    <rect fill="#fff"></rect>    <path d="M222.131 112.458L237.41
+				                66.8783H290.403L275.043 112.458H222.131Z"></path>    <path fill-rule="evenodd"
+				                clip-rule="evenodd" d="M158.026 174.716C172.966 162.84 191.165 155.37 211.659
+				                155.37C253.609 155.37 294.409 182.196 294.409 250.953V336H240.776V250.953C240.776
+				                215.516 223.929 202.107 200.933 202.107C181.969 202.107 168.181 213.026 160.516
+				                224.517V336H106.692V115.336H74L91.2077 64H158.026V174.716ZM272.988 109.567L286.407
+				                69.7565H239.485L226.132 109.567H272.988ZM235.338 64H294.409L277.112
+				                115.336H218.13L235.338 64Z"></path></svg> Hyvä Theme Demo</a>
+				                <div style="float: right;">Installed Version: <b>1.2.4</b></div>
+				                </div>
                             </div>
                             <hr>
                             <br>
