@@ -1,43 +1,63 @@
 # Magento 2 Customer Account Navigation Manager by [JaJuMa](https://www.jajuma.de/)
 
-Customer Account Navigation Manager extension by [JaJuMa](https://www.jajuma.de/) allows to configure an manage the customer account menu links from backend. 
+<img align="right" width="300" height="300" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/customer-navigation-manager-magento/magento-2-customer-navigation-manager-small.png">  
+  
+[Customer Account Navigation Manager](https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2) extension by [JaJuMa](https://www.jajuma.de/) allows  
+to configure an manage the Magento 2 customer account menu links from backend.
+
+<img align="left" width="80" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-shop/magento-with-hyva/JaJuMa-Hyvanaut-small.png">  
+
+Compatible with  
+[Hyvä Theme](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes)  
+ 
+
+## Scope
+ 
 Currently supported:
-* Enable / Disable Default Customer Navigation Tabs
-* Change Sort Order for Default Customer Navigation Tabs
-* Enable / Disable dividers in Customer Account Sidebar
-* Change Sort Order for dividers in Customer Account Navigation
-* Enable / Disable custom links added to Customer Account Menu by 3rd Party extensions 
-* Change Sort Order for custom links added to Customer Account Menu by 3rd Party extensions
+* With Luma Frontend:  
+  * Enable / Disable Default Customer Navigation Tabs
+  * Change Sort Order for Default Customer Navigation Tabs
+  * Enable / Disable dividers in Customer Account Sidebar
+  * Change Sort Order for 2 dividers in Customer Account Navigation
+  * Enable / Disable custom links added to Customer Account Menu by 3rd Party extensions 
+  * Change Sort Order for custom links added to Customer Account Menu by 3rd Party extensions
+  
+* With [Hyvä Themes](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes):  
+  * Enable / Disable Default Customer Navigation Tabs
+  * Change Sort Order for Default Customer Navigation Tabs
+  * Enable / Disable dividers in Customer Account Sidebar
+  * Change Sort Order for 1 divider in Customer Account Navigation
+  * Enable / Disable logout option in Customer Navigation Tabs
+  * Change Sort Order for logout option Default Customer Navigation Tabs
+  * Enable / Disable custom links added to Customer Account Menu by 3rd Party extensions 
+  * Change Sort Order for custom links added to Customer Account Menu by 3rd Party extensions  
 
 ![Customer Account Navigation Manager for Magento 2](https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/customer-navigation-manager-magento/magento-2-customer-navigation-remove-links-large.gif)
 
 ## Platform
 The following versions are supported and tested:
 
-* Magento Community Edition 2.3
+* Magento Community Edition 2.3+
+* Luma Frontend & [Hyvä Theme](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes)  
 
 Other versions are assumed to work.
+
+## Configure Customer Account Navigation in Magento 2
+
+Go to JaJuMa -> Customer Navigation Manager -> Configuration
+
+1. Configure which customer navigation tabs as well as dividers to be shown / hidden
+2. Configure sort value for each visible customer navigation tab / divider
 
 ## Further Info, Extension Description & Manual
 
 * [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2)
 * [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/extensions/customer-navigation-manager-extension-fuer-magento-2)
 
-## Demo
+## Demos
 
-[Demo](https://demo.extension.jajuma.de/)
-
-[Demo Backend](https://demo.extension.jajuma.de/admin)
-
-Admin Login:
-
-Username: demo / Password: demo123
-
-[Demo Frontend](https://demo.extension.jajuma.de/customer/account/login/)
-
-Customer Login:
-
-Email: roni_cost@example.com / Password: roni_cost3@example.com
+* [Customer Navigation Manager Demo on Luma Theme](https://www.jajuma.de/en/jajuma-shop/demo-shop-with-magento-2)
+* [Customer Navigation Manager Demo on Hyvä Theme](https://www.jajuma.de/en/jajuma-shop/demo-shop-with-magento-2-and-hyva-themes)
 
 ## License
 
@@ -72,6 +92,15 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Cus
   * :bell: Marketing:<br>[Customer Registration Reminder & Cleanup for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/customer-registration-reminder-and-cleanup-extension-for-magento-2)<br>
   Increase Your Customer Engangement & Cleanup your Customer Account Data Automatically
   
+  * :triangular_flag_on_post: UI & UX:<br>[Awesome Hyvä for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)<br>
+  Font Awesome 5 & 6 Icons for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store  
+
+  * :heavy_division_sign: Accounting:<br>[Dynamic Shipping Tax for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)<br>
+  Dynamic shipping tax calculation based on products in cart    
+  
+  * :question: Content:<br>[Hyvä FAQ Widget for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/extensions/hyva-faq-widget-extension-for-hyva-themes)<br>
+  FAQ Widget for Magento 2 with Hyvä Theme
+
 ## Other [Services](https://www.jajuma.de/en/jajuma/company-magento-ecommerce-agency-stuttgart) by [JaJuMa](https://www.jajuma.de/)
 
   * :shopping: [JaJuMa-Market: Marketplace Software](https://www.jajuma.de/en/jajuma-market)<br>
