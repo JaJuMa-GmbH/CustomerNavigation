@@ -8,7 +8,7 @@ Each link can be quickly and easily removed from your customer navigation dashbo
 The extension also allows changing the customer menu sort order.
 Additionally, enabling/disabling and sorting links and menu tabs added by 3rd party extensions as well as dividers are supported.
 
-## Compatible with
+### Compatible with
 
 <td>
     <table>
@@ -69,6 +69,7 @@ Currently supported:
   * Enable / Disable custom links added to Customer Account Menu by 3rd Party extensions 
   * Change Sort Order for custom links added to Customer Account Menu by 3rd Party extensions  
 
+## Frontend Demo
 ![Customer Account Navigation Manager for Magento 2](https://www.jajuma.de/media/wysiwyg/jajuma-develop/customer-navigation-manager-extension-for-magento-2/magento-2-customer-navigation-remove-links-small.gif)
 
 ## Platform
